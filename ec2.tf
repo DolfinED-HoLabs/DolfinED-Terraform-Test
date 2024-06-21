@@ -8,6 +8,7 @@ resource "aws_instance" "webapp" {
  instance_type = "t2.micro"
 }
 
+
 resource "aws_s3_bucket" "dolfined_bucket" {
   bucket = "my-tf-test12345-bucket-12345"
 }
