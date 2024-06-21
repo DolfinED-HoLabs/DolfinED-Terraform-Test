@@ -1,8 +1,10 @@
 
 provider "aws" {
   region  = "us-east-1"
-  profile = "dev_admin"
+  access_key = "AKIAYS2NUV67CCQTPA5N"
+  secret_key = "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"
 }
+
 
 
 resource "aws_instance" "webapp" {
