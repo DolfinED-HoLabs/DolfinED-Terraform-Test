@@ -7,7 +7,8 @@ resource "aws_instance" "webapp" {
  ami           = "ami-08a0d1e16fc3f61ea"
  instance_type = "t2.micro"
   tags = {
-    Name = "dolfined_demo1"
+    Name = "dolfined_demo123"
+    Env = "prod"
   }
 }
 
